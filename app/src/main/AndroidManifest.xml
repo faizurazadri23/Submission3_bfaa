@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.faizurazadri.submission3_bfaa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="com.faizurazadri.submission3_bfaa.NOTIFICATION" />
+
+    <permission
+        android:name="com.faizurazadri.submission3_bfaa.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.faizurazadri.submission3_bfaa.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Submission3_bfaa">
+        <provider
+            android:name=".provider.MyContentProvider"
+            android:authorities="com.faizurazadri.submission3_bfaa"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <receiver
+            android:name=".receiver.MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".SettingActivity"
+            android:label="Pengaturan"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="Favorit Pengguna"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DetailUserActivity"
+            android:label="Detail User"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

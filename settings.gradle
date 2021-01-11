@@ -1,0 +1,3 @@
+include ':favoritapp'
+include ':app'
+rootProject.name = "Submission3_bfaa"

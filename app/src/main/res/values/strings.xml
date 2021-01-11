@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pengguna Github</string>
+    <string name="favorit">Favorit</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+    <string name="pengguna">Pengguna</string>
+    <string name="titik">:</string>
+    <string name="nama_panjang">Nama Panjang</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="selamat_datang">Selamat Datang di Aplikasi Pengguna Github</string>
+    <string name="notifikasi_pengingat">Notifikasi Pengingat</string>
+    <string name="pengikut">Pengikut</string>
+    <string name="diikuti">Diikuti</string>
+    <string name="pesan_notifikasi">Ingin tahu Pengguna Github?Cek Sekarang</string>
+    <string name="pencarian_pengguna">Pencarian Pengguna</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="hint_pengguna">Silahkan masukkan nama pengguna...</string>
+    <string name="tidak_berhasil">Tidak berhasil mengambil data</string>
+    <string name="gagal">Permintaan gagal</string>
+    <string name="menunggu">Mohon Menunggu</string>
+    <string name="berhasil_memasukkan">Berhasil menambahkan ke Daftar Favorit</string>
+    <string name="berhasil_menghapus">Berhasil menghapus pengguna dari daftar favorite</string>
+    <string name="cari">Cari</string>
+    <string name="notifikasi_aktif">Notifikasi Aktif</string>
+    <string name="notifikasi_Mati">Notifikasi Tidak Aktif</string>
+
+</resources>

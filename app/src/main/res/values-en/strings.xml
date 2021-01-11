@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="favorit">Favorite</string>
+    <string name="ganti_bahasa">Change language</string>
+    <string name="pengguna">Username</string>
+    <string name="titik">:</string>
+    <string name="nama_panjang">Full name</string>
+    <string name="lokasi">Location</string>
+    <string name="selamat_datang">Welcome to application users Github</string>
+    <string name="notifikasi_pengingat">Notification remember</string>
+    <string name="pengikut">Followers</string>
+    <string name="diikuti">Following</string>
+    <string name="pesan_notifikasi">Want to know Github users? check it now</string>
+    <string name="pencarian_pengguna">Searching user</string>
+    <string name="pengaturan">Settings</string>
+    <string name="hint_pengguna">Please input your username...</string>
+    <string name="tidak_berhasil">Fetch data unsuccessful</string>
+    <string name="gagal">Request failed</string>
+    <string name="menunggu">Please wait</string>
+    <string name="berhasil_memasukkan">Successfully added to Favorite List</string>
+    <string name="berhasil_menghapus">Successfully removed the user from the favorites list</string>
+    <string name="cari">Search</string>
+    <string name="notifikasi_aktif">Notification Active</string>
+    <string name="notifikasi_Mati">Notifikasi Not Active</string>
+</resources>
